@@ -1,4 +1,4 @@
-# Learning_c-_my_way_boiii
+# Learning_c++_my_way_boiii
 I am learning C++ my way this time....
 Forging my way towards applying this shit..on what? Who gives a damn...i idk either
 
