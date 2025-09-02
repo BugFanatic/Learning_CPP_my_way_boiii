@@ -2,11 +2,17 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
+#include <random>
 
 std::string text_generator()
 {
     std::string text = "";
-    int text_size = 300;
+
+    // Randomly generating a number between 0 and 301 using the "<random>" library.
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<int> dist(1,300);
+    int text_size = dist(gen);
 
     for (int i = 0; i < text_size; i++)
     {
